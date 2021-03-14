@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/723297a893.js" crossorigin="anonymous"></script>
+    <title>My Notes!</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/draggable.js" defer></script>
+</head>
+
+<body>
+    <div class="buttons">
+        <button class="addNote" onclick="addNote()"><i class="fas fa-plus" title="Add new note"></i></button>
+        <button class="saveNote" onclick="saveDataToLocalStorage()"><i class="fas fa-save" title="Save Your Notes"></i></button>
+        <button class="loadNote" onclick="loadSavedNotes()"><i class="fas fa-upload" title="Load Your Notes"></i></button>
+    </div>
+    <div class="note-template" draggable="true">
+        <span onclick="this.parentElement.remove()" title="Remove">&times;</span>
+        <input class="note-title" type="text" placeholder="Title..."></input>
+        <textarea type="text" placeholder="Write your notes..."></textarea>
+    </div>
+
+
+
+    <video autoplay muted loop>
+    <source src=" ./img/Abstract - 26011.mp4">
+</video>
+
+
+</body>
+
+</html>
