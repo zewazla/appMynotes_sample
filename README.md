@@ -1,24 +1,5 @@
 # My notes
 
-## Story
-
-Your task is to create an application for taking notes. You don't have to make your project as fancy as this one. 
-
-![notes.png](media/frontend/my-notes/notes.png)
-
-Please check the user stories below:
-
-
-## What are you going to learn?
-
-You will learn:
-
-- using HTML template and cloning it to new DOM element
-- working with events
-- writing and reading data from local storage
-- drag&drop feature
-- getting mouse coordinates
-
 ## Tasks
 
 1. As a user, I want to add multiple notes, so that I can store different information in
@@ -51,16 +32,7 @@ For overwriting notes, use implemented `addNote()` function.
 6. [OPTIONAL] At the end it's nice to implement additional features. For a better organization let's code sorting for notes.
     - Add button for sorting all notes by title or description.
 
-## General requirements
 
-None
-
-## Hints
-
-- Don’t use Bootstrap
-- Don’t use third party libraries and frameworks (jQuery, React, Angular, etc)
-
-## Background materials
 
 - <i class="far fa-exclamation"></i> [Mouse events, getting mouse coord](https://kursjs.pl/kurs/events/events-mouse.php)
 - <i class="far fa-exclamation"></i> [Drag&Drop](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
